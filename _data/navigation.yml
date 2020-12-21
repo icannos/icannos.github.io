@@ -3,7 +3,7 @@ main:
   - title: "Home"
     url: "https://icannos.github.io/"
   - title: "Talks"
-	url: "https://icannos.github.io/talks"
+    url: "/talks/"
   - title: "CV"
-	url: "https://icannos.github.io/files/cv.pdf"
+    url: "https://icannos.github.io/files/cv.pdf"
 
