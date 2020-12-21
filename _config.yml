@@ -94,12 +94,12 @@ analytics:
 # Site Author
 author:
   name             : "Maxime Darrin"
-  avatar           : "/assets/images/bio-photo.jpg"
+  avatar           : "/files/images/id.jpg"
   bio              : "I am a machine learning researcher, I am mainly interested in robustness of machine learning model. I also work on philosophy and ethic of AI."
   location         : "Somewhere"
   email            : "maxime.darrin@ens-lyon.org"
   links:
-    - label: "Email"
+    - label: "maxime.darrin@ens-lyon.org"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:maxime.darrin@ens-lyon.org"
     - label: "Website"
