@@ -94,17 +94,17 @@ analytics:
 # Site Author
 author:
   name             : "Maxime Darrin"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg"
   bio              : "I am a machine learning researcher, I am mainly interested in robustness of machine learning model. I also work on philosophy and ethic of AI."
   location         : "Somewhere"
   email            : "maxime.darrin@ens-lyon.org
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:maxime.darrin@ens-lyon.org"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://icannos.github.io/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
