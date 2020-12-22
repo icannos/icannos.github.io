@@ -280,9 +280,15 @@ defaults:
 
 collections_dir: content
 collections:
-   - talks
-   - teaching
-   - publications
+   talks:
+     output: true
+     permalink: /talks/:path/
+   teaching:
+     output: true
+     permalink: /teaching/:path/
+   publications:
+     output: true
+     permalink: /publications/:path/
 
 
 
