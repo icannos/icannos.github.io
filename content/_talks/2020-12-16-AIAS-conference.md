@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 img: /files/images/aias.jpg
 title: AIAS conference
 url: talks/2020-12-16-AIAS-conference.md
