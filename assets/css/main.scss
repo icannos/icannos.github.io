@@ -21,4 +21,7 @@ html {
   @include breakpoint($x-large) {
     font-size: 20px; // change to whatever
   }
+
+  -webkit-text-size-adjust: 80%;
+  -ms-text-size-adjust: 80%;
 }
