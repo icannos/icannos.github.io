@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: post
 title: AIAS conference
+url: talks/2020-12-16-AIAS-conference.md
 description: "I presented my work on robustness of AI from epistemological and policymaking standpoints as part of my master thesis. I addressed the motivation of the need of defining more precise definitions of robustness for AI than the usual score on a test set. I try to propose a good notion of robustness and to present (practical) mathematical formulations of such a notion."
 ---
 
