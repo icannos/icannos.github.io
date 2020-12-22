@@ -278,6 +278,21 @@ defaults:
       share: true
       related: true
 
+defaults:
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+
+
+
 collections_dir: content
 collections:
    talks:
