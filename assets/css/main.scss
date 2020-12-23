@@ -8,32 +8,22 @@
 @import "minimal-mistakes"; // main partials
 
 html {
-
-  font-size: 8px; // change to whatever
+  /* apply a natural box layout model to all elements */
+  box-sizing: border-box;
+  background-color: $background-color;
+  font-size: 8px;
 
   @include breakpoint($medium) {
-    font-size: 14px; // change to whatever
+    font-size: 12px;
   }
 
   @include breakpoint($large) {
-    font-size: 16px; // change to whatever
+    font-size: 14px;
   }
 
   @include breakpoint($x-large) {
-    font-size: 20px; // change to whatever
+    font-size: 16px;
   }
-
-  -webkit-text-size-adjust: 80%;
-  -ms-text-size-adjust: 80%;
-
-$type-size-1 : 2em;  
-$type-size-2 : 1.5em; 
-$type-size-3 : 1.2em; 
-$type-size-4 : 0.5em;   
-$type-size-5 : 0.8em;     
-$type-size-6 : 0.65em;   
-$type-size-7 : 0.60em; 
-$type-size-8 : 0.5em; 
 }
 
 
