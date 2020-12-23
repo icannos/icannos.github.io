@@ -4,41 +4,10 @@
 
 @charset "utf-8";
 
-$type-size-1 : 2em;  
-$type-size-2 : 1.5em; 
-$type-size-3 : 1.2em; 
-$type-size-4 : 0.5em;   
-$type-size-5 : 0.8em;     
-$type-size-6 : 0.65em;   
-$type-size-7 : 0.60em; 
-$type-size-8 : 0.5em; 
-
-
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-html {
-
-  font-size: 8px; // change to whatever
-
-  @include breakpoint($medium) {
-    font-size: 14px; // change to whatever
-  }
-
-  @include breakpoint($large) {
-    font-size: 16px; // change to whatever
-  }
-
-  @include breakpoint($x-large) {
-    font-size: 20px; // change to whatever
-  }
-
-  -webkit-text-size-adjust: 80%;
-  -ms-text-size-adjust: 80%;
-
-
-}
 
 
 
