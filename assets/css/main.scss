@@ -8,7 +8,8 @@
 @import "minimal-mistakes"; // main partials
 
 html {
-  font-size: 14px; // change to whatever
+
+  font-size: 8px; // change to whatever
 
   @include breakpoint($medium) {
     font-size: 14px; // change to whatever
