@@ -4,6 +4,8 @@ main:
     url: "https://icannos.github.io/"
   - title: "Talks"
     url: "/talks/"
+  - title: "Trips"
+    url: "/trips/"
   - title: "CV"
     url: "https://icannos.github.io/files/cv.pdf"
 

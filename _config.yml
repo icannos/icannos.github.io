@@ -305,6 +305,9 @@ collections:
    publications:
      output: true
      permalink: /publications/:path/
+   trips:
+     output: true
+     permalink: /trips/:path/
 
 
 

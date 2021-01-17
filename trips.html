@@ -1,0 +1,14 @@
+---
+layout: single
+title: Trips
+---
+
+{% for talks in site.talks %}
+
+<a href="{{ trips.url | prepend: site.baseurl }}">
+  <h2>{{ trips.title }}</h2>
+</a>
+
+<p class="post-excerpt">{{ trips.description | truncate: 160 }}</p>
+
+{% endfor %}  
