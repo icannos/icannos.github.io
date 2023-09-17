@@ -18,6 +18,7 @@ Let say we have a graph $G = (V, E)$ with $N$ vertices. Each vertice $v \in V$ r
 
 ![Graph of the problem](/assets/img/dinners/graph.png){: w="300"}
 
+
 The decision problem we are looking at is stated as follow: 
 For $M$ a natural numbler, is there a simple path $ (v_1 \cdots v_K)$ such that:
 
@@ -63,7 +64,8 @@ We can conclude that Max-dinners is at least as hard as Longest path (it's essen
 In a first version of this article I did not bother to include a solution to the actual problem. After complaints of some friends who don't give a shit about maths and just want to know which planes to book I wrote down the algorithm and got the solution. [The whole code is available on my github](https://github.com/icannos/blog-projects/tree/master/maxdinners).
 It turned out that even with the [concorde](https://en.wikipedia.org/wiki/Concorde) we can only attend 4 dinners in one day in Europe.
 
-![Some options of paths with respect to the speed of the plane](/assets/img/dinners/animation.gif){: w="500"}
+
+{% include figure.html path="/assets/img/dinners/animation.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 First I had to build the data:
 

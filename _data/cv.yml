@@ -1,97 +1,83 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
+    - name: Maxime Darrin
+      value: Maxime Darrin
     - name: Date of Birth
-      value: 14th March 1879
+      value: 25th March 1997
     - name: Languages
-      value: English, German
+      value: French, English, German
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Mcgill University \& Paris Saclay University
+      year: 2021-2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Joint PhD in computer science
+        - title: Trustworthy text generation
+    - title: Engineering degree, Public affairs and Innovation
+      institution: \'Ecole des Mines de Paris
+      year: 2020-2021
       description:
-        - Description 1.
-        - Description 2.
+        - Sociology of science.
+        - Regulation and deployment of innovation.
+        - Ethics and robustness of AI.
+    - title: Master's degree in Philosophy of science
+      institution: Paris 1 Panthéon-Sorbonne
+      year: 2019-2021
+      description:
+        - Epistemology, philosophy of science, proof theory.
+        - Philosophy of AI, learning theory.
+        - Ethics and robustness of AI.
+    - title: Master's degree in Maths
+      institution: Sorbonne Université
+      year: 2019-2020
+      description:
+        - Statistical learning, applied mathematics to machine learning
+        - Deeplearning, CUDA, GPU programming, information theory.
+    - title: Normalien in fundamental computer science
+      institution: ENS de Lyon
+      year: 2017-2021
+      description:
+        - Fundamental computer science.
+        - Complexity theory, language theory, compilers.
+
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research intern
+      institution: Meta, FAIR Paris, France
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Large language models for proof generation.
+        - MCTS for language generation.
+
+    - title: Research intern
+      institution: CNRS, Centralesupelec, Paris Saclay, France
+      year: 2020
       description:
-        - Description 1.
-        - Description 2.
+        - Information theory for AI model's robustness.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Research intern
+      institution: Worldline, Lyon, France
+      year: 2019
       description:
+        - Anomaly and fraud detection in finance.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/icannos/pgn2tex">PGN2TEX</a>
+      year: 2022-now
+      description: A simple python script to generate pdf book from pgn studies.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Rock climbing
+    - Chess
