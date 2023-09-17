@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Maxime Darrin",
-    "label": "Machine learning researcher | student at ENS Lyon | Ingénieur civil at MINES ParisTech",
+    "label": "Machine learning researcher | student at ENS Lyon | Ingénieur civil at MINES ParisTech\n",
     "image": "",
     "email": "maxime.darrin@outlook.com",
     "phone": "",
@@ -31,12 +31,12 @@
       "location": "Montréal, Québec, Canada"
     },
     {
-      "name": "CentraleSupélec",
+      "name": "Université Paris-Saclay",
       "position": "PHD Student",
       "startDate": "2021-12-31",
       "endDate": "",
       "highlights": [],
-      "url": "https://www.linkedin.com/school/centralesupelec/",
+      "url": "https://www.linkedin.com/school/universit%C3%A9-paris-saclay/",
       "location": "Saclay, Île-de-France, France"
     },
     {
@@ -206,8 +206,16 @@
   ],
   "languages": [
     {
-      "language": "fr",
-      "fluency": "Native Speaker"
+      "fluency": "Elementary",
+      "language": "German"
+    },
+    {
+      "fluency": "Fluent",
+      "language": "English"
+    },
+    {
+      "fluency": "Native Speaker",
+      "language": "Français"
     }
   ],
   "interests": [],
