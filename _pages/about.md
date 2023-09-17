@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.png
   image_circular: false # crops the image to make it circular
-  address: Stablediffused Maxime
+  address: <center>Stablediffused Maxime</center>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
